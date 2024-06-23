@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+ </head>
+ <body>
+  <div class="container">
+   <div class="container-content">
+    <div class="text-entry">
+     <h2>Text Input</h2>
+     <textarea
+      name=""
+      id="textarea"
+      cols="30"
+      rows="10"
+      placeholder="Type/copy your text here..."
+     ></textarea>
+     <button type="button" id="process-btn">Count</button>
+    </div>
+
+    <div class="text-info">
+     <h2>Text Analysis</h2>
+     <ul class="text-info-list">
+      <li>
+       <p>Count of Characters:</p>
+       <span id="char">0</span>
+      </li>
+      <li>
+       <p>Count of Words:</p>
+       <span id="word">0</span>
+      </li>
+      <li>
+       <p>No.of sentences:</p>
+       <span id="sentences">0</span>
+      </li>
+      <li>
+       <p>No.of spaces:</p>
+       <span id="spaces">0</span>
+      </li>
+      <li>
+       <p>Count of Punctuations:</p>
+       <span id="punctuations">0</span>
+      </li>
+     </ul>
+    </div>
+   </div>
+  </div>
+
+  <script src="script.js"></script>
+ </body>
+</html>
